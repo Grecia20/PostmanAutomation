@@ -23,18 +23,6 @@ $ npm install -g newman-reporter-html y $ npm install -g newman-reporter-htmlext
 
 +++++++++Configurando script+++++++++
 
-Una vez abierto Postman, procedemos dando clic en menú y seleccionamos la opción "Import" y clic en la opción File// OpenAPI, buscamos la ruta donde se ubica la coleccion y el environment
-damos clic en el botón "Import", una vez importado el paquete de los servicios automatzado, procedemos a dar clic izquierdo en la colección y clic en la opción "Run collection", se mostrará la 
-lista de servicios y configuramos a criterio propio como se desea el recorrido de la collecion, damos clic en el boton "Run ApiAutomation-Restful-booking", lo siguiente
-es que mostrará el reporte de la ejecución
-Si se quiere ejecutar el servicio y se muestre un reporte en newman desde consola, ingresamos a la consola en la ruta donde se encuentra alojado la colecion y environment, y ejecutamos el siguiente comando
-$ newman run ApiAutomation-Restful-booker.postman_collection.json -e Environment-Restful-booker.postman_environment.json
-y cuando termine de ejecutar todo el servicio, se mostrar el reporte con detalle de los test case ya se executed o failed.
-Para obtener la reporteria en html ejecutar el comando en consola lo siguiente $ newman run ApiAutomation-Restful-booker.postman_collection.json -e Environment-Restful-booker.postman_environment.json -r htmlextra , nos
-vamos en la carpeta ubicada la colección y visualizara una carpeta creada automaticamente, ingresamo y visualizaremos el reporte con extesión .html y lo abrimos en nuestro navegador preferido
-
-
-
 Configurando script
 
 1. Una vez abierto Postman, procedemos dando clic en menú y seleccionamos la opción "Import" y clic en la opción File// OpenAPI, buscamos la ruta donde se ubica la colección y el environment
